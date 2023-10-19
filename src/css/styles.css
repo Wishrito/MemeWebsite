@@ -49,8 +49,6 @@ footer {
 footer a {
     text-decoration: none;
     color:  gainsboro;
-    
-
 }
 
 footer div {
@@ -61,23 +59,17 @@ footer a :hover {
     color: white;
     cursor: url(/src/img/795887815250280469.png), pointer;
 }
-/* Dropdown Button */
-.dropdtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-  
+
+/* Navbar */
 
 .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: "Minecraft", sans-serif;
 }
+
 .navbar input {
-    float: left;
+    float: right;
     font-size: 16px;
     color: black;
     text-align: center;
@@ -85,7 +77,9 @@ footer a :hover {
     text-decoration: none;
     font-family: "Minecraft", sans-serif;
 }
-
+.navbar input :hover {
+    background-color: white;
+}
 .navbar a {
     float: left;
     font-size: 16px;
@@ -94,28 +88,30 @@ footer a :hover {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+.navbar a:hover, .dropdown:hover, .dropdtn {
+    background-color: red;
+    cursor: pointer;
+}
+/* dropdown button */
+
 .dropdown {
     float: left;
     overflow: hidden;
 }
-  
-.dropdtn {
-    font-size: 16px;  
-    border: white 12px;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
+
+.dropbtn {
     background-color: inherit;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
     font-family: inherit;
-    margin: 0;
 }
   
-.navbar a:hover, .dropdown:hover .dropdtn {
+.dropbtn:hover {
     background-color: red;
-    cursor: url(/src/img/795887815250280469.png), pointer;
 }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -134,31 +130,10 @@ footer a :hover {
     text-align: left;
 }
   
-.dropdown-content a:hover {
+.dropdown a:hover {
     background-color: #ddd;
-    cursor: url(/src/img/795887815250280469.png), pointer;
 }
   
-.dropdown:hover .dropdown-content {
+.show {
     display: block;
-    cursor: url(/src/img/795887815250280469.png), pointer;
-}
-.couleur_bleue {
-    color: blue;
-}
-#couleur_rouge {
-    color: red;
-}
-.container {
-    font-style: italic;
-}
-.souligne {
-    text-decoration: underline;
-}
-.gras {
-    font-weight: bold;
-}
-table, caption, th, td {
-    border: 2px solid black;
-    border-collapse: collapse;
 }
