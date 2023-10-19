@@ -76,7 +76,18 @@ footer a :hover {
     background-color: #333;
     font-family: "Minecraft", sans-serif;
 }
-  
+.navbar input {
+    overflow: hidden;
+    background-color: white;
+    font-family: "Minecraft", sans-serif;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .navbar a {
     float: left;
     font-size: 16px;
